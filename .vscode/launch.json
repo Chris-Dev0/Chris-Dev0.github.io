@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open main.html",
-            "file": "c:\\Users\\charl\\Projects\\Charleco.github.io\\index.html"
+            "file": "${workspaceFolder}/index.html"
         }
     ]
 }
