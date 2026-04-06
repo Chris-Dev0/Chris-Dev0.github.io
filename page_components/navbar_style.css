@@ -1,0 +1,52 @@
+/* NAVBAR */
+.navbar
+{
+    background-color: var(--secondary-background);
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.nav-list
+{
+    list-style-type: none;
+    gap: 20%;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-item{
+    vertical-align: middle;
+    padding: 5px;
+    display: inline flex;
+    text-align: center;
+    scale:1.0;
+    transition: all 0.3s ease;
+}
+.nav-item:hover .nav-link,
+.nav-item:hover .nav-icon,
+.nav-item:focus-within .nav-link,
+.nav-item:focus-within .nav-icon{
+    color: var(--accent-color);
+    scale: 1.05;
+    transition: all 0.3s ease;
+}
+.nav-item:hover, .nav-item:focus-within{
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+.nav-link{
+    vertical-align: middle;
+}
+.nav-link text
+{
+    vertical-align: middle;
+    padding: 10px;
+}
+.nav-icon {
+    color: var(--tertiary-color);
+    font-size: 2em;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+}
