@@ -12,7 +12,7 @@
   <link rel="manifest" href="/site.webmanifest">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicons/css/devicon.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -29,28 +29,76 @@
           <a class="nav-link" href="#projects"><i class="fas fa-monument nav-icon"></i>Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#skills"><i class="fas fa-thumbs-up nav-icon"></i>Skills</a>
+          <a class="nav-link" href="#experience"><i class="fa-solid fa-business-time nav-icon"></i>Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact"><i class="fas fa-address-book nav-icon"></i>Contact</a>
-        </li>
+          <a class="nav-link" href="#homelab"><i class="fas fa-server nav-icon"></i>Homelab</a>
+        </li>        
         <li class="nav-item">
           <a class="nav-link" href="#resume"><i class="fas fa-file-word nav-icon"></i>Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#homelab"><i class="fas fa-server nav-icon"></i>Homelab</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#experience"><i class="fa-solid fa-business-time nav-icon"></i>Experience</a>
+          <a class="nav-link" href="#contact"><i class="fas fa-address-book nav-icon"></i>Contact</a>
         </li>
       </ul>
     </nav>
   </header>
   <!-- HERO -->
-  <div class="text-center" id="hero-section">
-    <img src="img/pfp.png" class="" alt="github profile picture" id="hero-image">
-    <h1>Chris-Dev0</h1>
-    <p>CS Student</p>
+  <div class="hero-section">
+    <div class="hero-info">
+      <img src="img/pfp.png" class="" alt="github profile picture" id="hero-image">
+      <h1>Chris-Dev0</h1>
+      <p>CS Student</p>
+    </div>
+
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <i class="devicon-git-plain colored"></i>
+      <p>Git</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <i class="devicon-csharp-plain colored"></i>
+      <p>C-Sharp</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <i class="devicon-java-plain colored"></i>
+      <p>Java</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" style="outline: auto;"/>
+      <p>Linux</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <i class="devicon-html5-plain colored"></i>
+      <p>HTML</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <i class="devicon-css3-plain colored"></i>
+      <p>CSS</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <i class="devicon-windows11-original colored"></i>
+      <p>Windows</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <i class="devicon-godot-plain colored"></i>
+      <p>Godot</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <i class="devicon-libgdx-plain colored"></i>
+      <p>libGDX</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <i class="devicon-docker-plain colored"></i>
+      <p>Docker</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <i class="devicon-dotnetcore-plain colored"></i>
+      <p>.NET Core</p>
+    </div>
+    <div class="skill-icon" data-speed-x="1" data-speed-y="1">
+      <img src="img/avalonia-logo.ico" alt="icon"></img>
+      <p>Avalonia</p>
+    </div>
   </div>
 
   <footer>
@@ -69,6 +117,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+  <script src="icon-bounce.js"></script>
 </body>
 
 </html>
