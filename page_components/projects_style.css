@@ -1,0 +1,36 @@
+body {
+    --default-color: #b6cbc7;
+    --accent-color: #d7c642;
+    --primary-background: #053533;
+    --secondary-background: #021616;
+    --tertiary-color: #4d7982;
+
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.project-cell {
+    background-color: var(--secondary-background);
+    border: solid var(--tertiary-color) 2px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cell-header{
+    display: flex;
+    flex-direction: row;
+}
+.cell-header p{
+    font-style: italic;
+}
+.cell-header h1{
+    font-weight: bold;
+}
+.cell-header i{
+    justify-content: center;
+    align-items: center;
+}
