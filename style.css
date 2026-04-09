@@ -60,3 +60,11 @@ body, html {
     width: 200px;
     height: 200px;
 }
+.icon-anchor
+{
+    color: inherit;
+}
+.link-icon:hover
+{
+    color:var(--accent-color);
+}
