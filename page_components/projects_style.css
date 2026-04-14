@@ -29,11 +29,13 @@ body {
     overflow: hidden;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     transition: 0.25s ease;
+    display: flex;
+    flex-direction: column;
 }
 .project-cell:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-  }
+}
 .cell-header {
     padding: 10px;
 }
@@ -85,18 +87,21 @@ body {
 
 .img-container {
     width: 100%;
-    height: 100%;
+    box-sizing: border-box;
     background-color: #090f0f;
     padding: 10px;
-    justify-content: center;
+    flex-grow: 1;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .img-container img {
     width: 100%;
-    height: 100%;
+    height: auto;
     max-height: 200px;
     object-fit: contain;
+    display: block;
 }
 .cell-header a {
     text-decoration: none;
