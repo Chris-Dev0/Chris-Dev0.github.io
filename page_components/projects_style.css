@@ -4,7 +4,21 @@ body {
     --primary-background: #053533;
     --secondary-background: #021616;
     --tertiary-color: #4d7982;
-    height: 100%;
+}
+#page-title
+{
+    font-weight: 800;
+    text-align: center;
+    padding: 40px, 0px;
+    font-size:5em;
+}
+#page-subtitle
+{
+    text-align: center; 
+    margin: 10px; 
+    font-style: italic; 
+    font-size: small;
+    color: var(--tertiary-color);
 }
 
 .project-cell i {

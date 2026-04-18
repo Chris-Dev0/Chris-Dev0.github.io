@@ -3,8 +3,9 @@
     position: relative;
     /* background-color: var(--primary-background); */
     background-color: #000000;
-    /* padding: 50px; */
-    border: var(--tertiary-color) solid 2px;
+    border-left: #314e54 solid 2px;
+    border-right: #314e54 solid 2px;
+    border-bottom: #314e54 solid 2px;;
     width: 100%;
     height: 400px;
     overflow: hidden;

@@ -1,5 +1,9 @@
-body, html {
-    height: 100vh;
+html, body
+{
+    margin: 0px;
+}
+body {
+    min-height: 100vh;
     margin: 0;
     --default-color: #b6cbc7;
     --accent-color: #d7c642;
@@ -7,7 +11,11 @@ body, html {
     --secondary-background: #021616;
     --tertiary-color: #4d7982;
     color: var(--default-color);
-    background-color: var(--primary-background);
+    /* background-color: var(--primary-background); */
+    background: #053533;
+    background-image: linear-gradient(rgba(2, 23, 22, 1) 0%, rgba(7, 82, 82, 1) 100%);
+    display: flex;
+    flex-direction: column;
 }
 .icon-anchor
 {
@@ -21,7 +29,4 @@ body, html {
     position: sticky;
     top: 0;
     z-index: 1000;
-}
-#footer{
-    position:static;
 }
